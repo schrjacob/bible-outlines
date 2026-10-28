@@ -1,0 +1,23 @@
+# MkDocs build output
+site/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Word lock/temp files
+~$*
+*.tmp
+
+# Copyrighted reference material: keep locally, don't publish
+reference/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local editor/agent settings
+.claude/

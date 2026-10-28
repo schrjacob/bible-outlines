@@ -1,0 +1,97 @@
+site_name: Bible Outlines
+site_description: Bible content study guide for PCA licensure and ordination exams
+# Set this to your GitHub Pages URL after creating the repo, e.g.
+# site_url: https://<username>.github.io/<repo>/
+# repo_url: https://github.com/<username>/<repo>
+
+copyright: Scripture quotations are from the ESV® Bible, © 2001 by Crossway. Used by permission.
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/book-cross
+  favicon: assets/favicon.svg
+  font:
+    text: Source Sans 3
+    code: Source Code Pro
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - toc.follow
+    - search.highlight
+    - search.suggest
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Exam Guide:
+      - exam-guide.md
+      - Whole Bible: whole-bible.md
+  - Old Testament:
+      - old-testament/index.md
+      - Pentateuch: old-testament/pentateuch.md
+      - Historical Books: old-testament/history.md
+      - Poetry & Wisdom: old-testament/wisdom.md
+      - Major Prophets: old-testament/major-prophets.md
+      - Minor Prophets: old-testament/minor-prophets.md
+      - Reference:
+          - Timeline & Covenants: old-testament/timeline.md
+          - People & Places: old-testament/people-places.md
+          - Passages & Events: old-testament/passages-events.md
+  - New Testament:
+      - new-testament/index.md
+      - Life of Christ: new-testament/life-of-christ.md
+      - Gospels: new-testament/gospels.md
+      - Acts: new-testament/acts.md
+      - Life of Paul: new-testament/paul.md
+      - Pauline Epistles: new-testament/pauline-epistles.md
+      - General Epistles & Revelation: new-testament/general-epistles-revelation.md
+      - Reference:
+          - People & Places: new-testament/people-places.md
+          - Key Passages: new-testament/passages.md
+          - Key Topics: new-testament/topics.md
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+validation:
+  links:
+    anchors: warn

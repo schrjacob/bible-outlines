@@ -1,0 +1,56 @@
+/* Outline lists: tighter spacing so a whole book outline fits on screen. */
+.md-typeset ul li,
+.md-typeset ol li {
+  margin-bottom: 0.15em;
+}
+.md-typeset ul ul,
+.md-typeset ol ul {
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+}
+
+/* Chapter references at the start of an outline item stand out. */
+.md-typeset li > strong:first-child {
+  color: var(--md-primary-fg-color);
+}
+[data-md-color-scheme="slate"] .md-typeset li > strong:first-child {
+  color: var(--md-primary-fg-color--light);
+}
+
+/* Book subtitle: the italic line directly under each book heading. */
+.md-typeset h2 + p > em:only-child {
+  display: block;
+  font-size: 1.05em;
+  color: var(--md-default-fg-color--light);
+  margin-top: -0.6em;
+}
+
+/* Book headings get a rule above to separate books on long pages. */
+.md-typeset h2 {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding-top: 0.8em;
+}
+.md-typeset h1 + h2,
+.md-typeset .admonition + h2 {
+  border-top: none;
+}
+
+/* Reference tables: readable and compact. */
+.md-typeset table:not([class]) {
+  font-size: 0.72rem;
+}
+.md-typeset table:not([class]) td {
+  vertical-align: top;
+  padding: 0.5em 0.9em;
+}
+
+/* Print: drop the chrome so pages print cleanly. */
+@media print {
+  .md-typeset h2 {
+    break-before: auto;
+    border-top: none;
+  }
+  .md-typeset table:not([class]) {
+    font-size: 9pt;
+  }
+}
