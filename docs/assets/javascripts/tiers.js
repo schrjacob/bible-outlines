@@ -45,6 +45,18 @@
   //   star:  tier for table rows marked with a star (Chapell's own list); other rows get `rest`
   var REFERENCE_PAGES = {
     "Exam Guide": { tier: 0 }, // the Tier admonitions are matched by title, below
+    // Theology pages: each question row carries its tier in a "Tier" column (see tagTierColumn).
+    "Theology": { tier: 0 },
+    "Core Doctrines and Proofs": { tier: 1 },
+    "The Bible": { tier: 0 },
+    "God and His World": { tier: 0 },
+    "Humankind": { tier: 0 },
+    "Covenants and Christ": { tier: 0 },
+    "Salvation": { tier: 0 },
+    "The Christian Life": { tier: 0 },
+    "The Church and the Spirit": { tier: 0 },
+    "The Last Things": { tier: 0 },
+    "Sacraments": { tier: 0 },
     "Whole Bible": { tier: 1 },
     "Old Testament": { tier: 1, h2: [[/^Hebrew Divisions/, 3]] },
     "New Testament": { tier: 1 },
@@ -99,6 +111,21 @@
     setTier(wrapper, "table");
   }
 
+  // A table whose first column is headed "Tier" gives each row's tier explicitly (1, 2, or 3).
+  function hasTierColumn(table) {
+    var th = table.querySelector("thead th");
+    return !!th && text(th) === "Tier";
+  }
+
+  function tagTierColumn(wrapper, table) {
+    table.setAttribute("data-tier-table", "1");
+    tagTable(wrapper, table, function (tr) {
+      var cell = tr.querySelector("td");
+      var n = cell ? parseInt(text(cell), 10) : NaN;
+      return n >= 1 && n <= 3 ? n : 0;
+    });
+  }
+
   function lookup(rules, str) {
     for (var i = 0; rules && i < rules.length; i++) {
       if (rules[i][0].test(str)) return rules[i][1];
@@ -142,7 +169,13 @@
       if (!isBlock) return;
 
       var tier;
-      if (isAdmonition && title === "Exam Guide") {
+      if (table && hasTierColumn(table)) {
+        tagTierColumn(el, table);
+        found = true;
+        return;
+      }
+
+      if (isAdmonition && /^Tier [123]/.test(text(el.querySelector(".admonition-title, summary") || el))) {
         var m = /^Tier ([123])/.exec(text(el.querySelector(".admonition-title, summary") || el));
         tier = m ? Number(m[1]) : 0;
       } else if (book) {

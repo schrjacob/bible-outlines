@@ -1,6 +1,6 @@
 # Bible Outlines for PCA Ordination Exams
 
-A study guide for the **Bible content** exam for licensure and ordination in the Presbyterian Church in America (PCA). It follows the requirements in Bryan Chapell and Jim Meek, *Preparing for Licensure and Ordination Exams* (PCA CE&P, 2002).
+A study guide for the **Bible content** and **theology** exams for licensure and ordination in the Presbyterian Church in America (PCA). It follows the requirements in Bryan Chapell and Jim Meek, *Preparing for Licensure and Ordination Exams* (PCA CE&P, 2002).
 
 The material is published two ways from **one source**:
 
@@ -14,6 +14,7 @@ The material is published two ways from **one source**:
 |---|---|
 | Exam Guide | PCA requirements (BCO 19-2, 21-4); which books need outlines and which need summaries; a tiered study plan |
 | Whole Bible | 66 / 39 / 27, the Ten Commandments, the law summarized, general revelation, the storyline |
+| Theology | Chapell's theology questions (A-L) in Westminster Confession order, with Scripture proofs; the Five Points, ordo salutis, and gospel outline; Shorter Catechism memory list; hot topics; each question tiered 1-3 |
 | Old Testament | Outlines and summaries of all 39 books; timeline and covenants; people and places; key passages and events |
 | New Testament | Life of Christ; outlines of the Gospels, Acts, the major Pauline letters, Hebrews, and Revelation; summaries of the rest; Paul's journeys and letters; people and places; Chapell's 60 key passages and 30 key topics |
 
@@ -21,6 +22,7 @@ The material is published two ways from **one source**:
 
 ```
 docs/                     Markdown source (the single source of truth)
+  theology/               Theology pages (one per group of Chapell's sections)
   old-testament/          OT book pages and reference pages
   new-testament/          NT book pages and reference pages
   assets/                 Site CSS, tier-filter script, and favicon

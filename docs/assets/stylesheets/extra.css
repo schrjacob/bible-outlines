@@ -126,3 +126,19 @@
     display: none;
   }
 }
+
+/* Theology question tables: a narrow, centred "Tier" column. */
+.md-typeset table:not([class])[data-tier-table] th:first-child,
+.md-typeset table:not([class])[data-tier-table] td:first-child {
+  width: 2.6rem;
+  min-width: 2.6rem;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset table:not([class])[data-tier-table] td:nth-child(2) {
+  min-width: 11rem;
+  font-weight: 600;
+}
