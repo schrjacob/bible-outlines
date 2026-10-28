@@ -100,4 +100,6 @@ Each question on these pages carries a **Tier** number in its first column. Chap
 - **Quote the Standards.** Learn the Shorter Catechism answers above word for word; their wording is exactly what examiners listen for.
 - **Overlap with the Bible exam:** the [NT Key Topics](../bible/new-testament/topics.md) page doubles as a proof-text list for these answers.
 
+*Wording and numbering of the Westminster Standards follow the PCA's edition. Quotations were checked against the text at thewestminsterstandard.org, which gives the original 1646 text; the American revision used by the PCA differs in a few places (WCF 20.4, 23.3, 24.4, 25.6, and 31, where the section numbering shifts), so check those against the PCA's edition.*
+
 *The Westminster Standards are in the public domain and are summarized here in the writer's own words, with direct quotation of only a few Shorter Catechism answers. Scripture references are from the ESV where quoted.*

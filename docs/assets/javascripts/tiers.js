@@ -8,7 +8,7 @@
 (function () {
   "use strict";
 
-  var STORAGE_KEY = "bible-outlines-tier";
+  var STORAGE_KEY = "ordination-study-guide-tier";
   var TIER_NAMES = {
     1: "Tier 1: know cold",
     2: "Tier 2: second pass",
