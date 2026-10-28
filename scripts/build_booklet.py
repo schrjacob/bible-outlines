@@ -2,8 +2,8 @@
 
 The original Word booklet (booklet/src/template.docx) supplies the cover page,
 styles, bullet numbering, footer, and page size. Everything after the cover is
-regenerated from the pages listed in mkdocs.yml's nav, so the website and the
-booklet always share one source.
+regenerated from the pages in one tab of mkdocs.yml's nav (the Bible tab by
+default), so the website and the booklet share one source.
 
 Booklet-only layout hints are HTML comments, which the website ignores:
 
@@ -14,7 +14,7 @@ Booklet-only layout hints are HTML comments, which the website ignores:
     <!-- docx-image: PATH width=2.8in -->   picture (PATH relative to the page)
     <!-- docx-skip --> ... <!-- /docx-skip -->   website-only content
 
-Usage:  python scripts/build_booklet.py [--out "booklet/Bible Outlines.docx"]
+Usage:  python scripts/build_booklet.py [--section Bible] [--out "booklet/Bible Outlines.docx"]
 """
 
 import argparse
@@ -430,8 +430,8 @@ class Booklet:
         self.render(read_page(path), path)
 
 
-def nav_pages():
-    """Page paths in mkdocs.yml nav order, skipping the home page."""
+def nav_pages(section="Bible"):
+    """Page paths of one top-level nav section (a tab), in mkdocs.yml nav order."""
     loader = yaml.SafeLoader
     loader.add_multi_constructor("tag:yaml.org,2002:python/", lambda l, s, n: None)
     config = yaml.load((ROOT / "mkdocs.yml").read_text(encoding="utf-8"), Loader=loader)
@@ -446,21 +446,25 @@ def nav_pages():
             for value in node.values():
                 yield from walk(value)
 
-    return [DOCS / p for p in walk(config["nav"]) if p != "index.md"]
+    for entry in config["nav"]:
+        if isinstance(entry, dict) and section in entry:
+            return [DOCS / p for p in walk(entry[section])]
+    raise SystemExit(f"No nav section named {section!r} in mkdocs.yml")
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    ap.add_argument("--section", default="Bible", help="nav tab to build (default: Bible)")
     args = ap.parse_args()
 
     booklet = Booklet(TEMPLATE)
-    for page in nav_pages():
+    for page in nav_pages(args.section):
         booklet.add_page(page)
     booklet.finish()
     args.out.parent.mkdir(parents=True, exist_ok=True)
     booklet.doc.save(str(args.out))
-    print(f"Wrote {args.out.relative_to(ROOT)}")
+    print(f"Wrote {args.out.resolve().relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

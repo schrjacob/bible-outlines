@@ -1,0 +1,38 @@
+# Discipline and Review
+
+<!-- cols:1 continuous -->
+
+Chapell, church government sections G ("Principles of Discipline," chapters 27-30), H ("The Process of Discipline," chapters 31-38), and I ("Review and Control; Jurisdiction," chapters 39-46). This is the **Rules of Discipline**. The **Tier** column ranks each question (1 = know cold, 2 = second pass, 3 = if time allows). Check specifics against the current BCO (see the warning on the [overview](index.md)); deadlines and procedures are the kind of detail that is amended.
+
+## G. Principles of Discipline (Chapters 27-30)
+
+| Tier | Question | Answer and proofs |
+|---|---|---|
+| 1 | What is church discipline? | The **exercise of the authority Christ has given the church** to **instruct, shepherd, and correct** its members and officers, so as to **keep the church pure and restore offenders**. It includes **formative discipline** (teaching, encouragement, admonition) and **corrective discipline** (formal censure) (BCO 27; Matt. 18:15-20; 1 Cor. 5; Heb. 12:5-11; WCF 30). |
+| 1 | What is the goal of church discipline? | To **honor Christ**, **protect the purity and peace of the church**, **deter** others from sin, and above all to **restore the offender** to repentance and fellowship (BCO 27; WCF 30.3; Gal. 6:1; 2 Cor. 2:5-11; 2 Thess. 3:14-15). |
+| 1 | What are its proper steps? | **Matt. 18:15-17:** (1) **Go privately** to the brother, to win him; (2) if he will not listen, take **one or two others**; (3) if he still refuses, **tell the church** (the session); (4) if he refuses even the church, treat him as an unbeliever (**excommunication**). Private sins are handled privately; **public** sins may call for earlier and more open action (BCO 27, 31; 1 Tim. 5:19-20; Titus 3:10). |
+| 2 | Who is primarily responsible for disciplining noncommuning members? | The **parents**, as part of their baptismal vows and covenant duty to teach and correct their children (Eph. 6:4; Prov. 22:6; BCO 28); the **session** supports them and may counsel and admonish, but formal **judicial** process is for **communing** members (BCO 28; verify). |
+| 1 | List and define church censures. | **For members:** **admonition** (formal warning); **suspension** (from the **sacraments**, for a set time or indefinitely); **excommunication** (removal from membership and the fellowship of the church). **For officers:** also **rebuke** (a stronger formal censure), **suspension** from office, and **deposition** (permanent removal from office), which may be joined to suspension from the sacraments or excommunication (BCO 30; WCF 30.4; verify the list). Each is meant to be **remedial** and to be lifted on **repentance** (a restoration process). |
+
+## H. The Process of Discipline (Chapters 31-38)
+
+| Tier | Question | Answer and proofs |
+|---|---|---|
+| 1 | With what court should charges be filed? | The court with **original jurisdiction**: the **session** for members, ruling elders, and deacons of that church; the **presbytery** for **teaching elders** (BCO 31, 33). |
+| 1 | What must be done before formal charges are brought? | The **private steps of Matt. 18** must have been taken where possible (personal admonition and with witnesses). The court, on learning of an offense by **common fame** or complaint, then makes a **preliminary inquiry** (investigation) and acts to **restore** the person privately where it can; **formal charges** follow only if the court finds that there is a **strong presumption of guilt** and that the offense calls for process (BCO 31; verify). |
+| 2 | When must a formal judicial process be pursued? | When an offense is **serious and public**, or the offender is **impenitent** after private and informal efforts, or an **officer** is accused of conduct or teaching that disqualifies him, so that the court has **reason to believe** the charge is true and requires a **trial** (BCO 31; verify the exact standard). |
+| 1 | How many witnesses are required? | **At least two or three**: one witness is **not enough** to convict (Deut. 19:15; Matt. 18:16; 1 Tim. 5:19; 2 Cor. 13:1). The BCO requires the testimony of **two or more witnesses** (or proper corroboration) (BCO 35; verify). |
+| 1 | How should a censure be administered? | **Solemnly and with prayer**, in a manner suited to the nature of the case and to the good of the offender, by the **moderator** in the name of the court, with the **fitting announcement** to the church where required (for example, for suspension or excommunication), and **in love**, so as to promote repentance (BCO 36). |
+| 1 | What is the goal of discipline in regard to the offender? | **Repentance and restoration**: that he be **reclaimed**, brought to **godly sorrow and amendment**, and restored to full fellowship; the censure is **lifted** when he repents (BCO 37; 2 Cor. 2:5-11; Gal. 6:1; 1 Cor. 5:5). |
+
+## I. Review and Control; Jurisdiction (Chapters 39-46)
+
+| Tier | Question | Answer and proofs |
+|---|---|---|
+| 2 | Define "review and control." | The **oversight** that a **higher court exercises over a lower one**: it **reviews the lower court's records and actions**, may **approve, correct, or require reconsideration**, and **ensures** that the lower court acts in accord with the Constitution (BCO 40). The means are **reference, appeal, complaint**, and the review of minutes. |
+| 2 | Define "reference." | A **lower court** (session, presbytery) **asks a higher court to decide or advise** on a matter that it believes it **cannot or should not decide**, whether judicial or not (BCO 41). The higher court takes up the matter, and the lower court has the benefit of its judgment. |
+| 2 | Define "appeal." How quickly must an appeal be filed? | An **appeal** is the **complaint of an aggrieved party** against a **judicial decision** of a lower court, taken to the next higher court by **written notice** (BCO 42). It has a **short deadline**: notice must be given within a **fixed number of days** after the decision (**30 days**, if I recall correctly; **verify BCO 42**). |
+| 2 | Define "complaint." How quickly must a complaint be filed? | A **complaint** is a **written protest** by a member of a court, or a person subject to its jurisdiction, against an **action (non-judicial) of that court** that he believes to be **in error**; it is directed to the **next higher court** (BCO 43). It has a **short deadline** as well (**verify BCO 43**; the BCO gives a fixed number of days). |
+| 2 | What should happen when a member moves out of the community? | He should **request a letter of transfer** (a **certificate of dismission**) to a **church** near his new home and **join it**; the **session** issues the letter, with a request to the receiving church to receive him (BCO 46). If he does not, the session should **contact and urge him** to do so and keep him under its care until he is received. |
+| 2 | What should be done when a member neglects the church for a year or more? | The **session** should **seek him out**, **warn and exhort** him, and make **faithful efforts** to restore him; if he remains absent and **unresponsive**, after proper notice it may place him on an **inactive** roll or **remove him from the roll**, or, if he is impenitent, institute **discipline** (BCO 46; verify the steps). |
+| 3 | What is an associate member? | A **communing member of another church** who is **temporarily living** in the area of this church (such as a student) and, with the consent of his own church and this session, is received as an **associate member** with the right to the **sacraments** and the church's **care**, but **without the right to vote or hold office**; his **membership remains** in his home church (BCO 46; verify). |

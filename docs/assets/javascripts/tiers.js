@@ -1,5 +1,5 @@
 /*
- * Tier filter: show only Tier 1, Tier 2, or Tier 3 content (see "Study in Tiers" in the Exam Guide).
+ * Tier filter: show only Tier 1, Tier 2, or Tier 3 content (see "If Time Is Short: Study in Tiers" in each exam's overview).
  *
  * Nothing in the Markdown is tagged. Each page is classified here, by rules keyed on the page's
  * <h1>, and the result is written to data-tier attributes on the rendered HTML. To change which tier
@@ -44,7 +44,17 @@
   //   h2:    [regex, tier] overrides by <h2> text; h3: the same by <h3> text
   //   star:  tier for table rows marked with a star (Chapell's own list); other rows get `rest`
   var REFERENCE_PAGES = {
-    "Exam Guide": { tier: 0 }, // the Tier admonitions are matched by title, below
+    "Bible": { tier: 0 }, // the Tier admonitions are matched by title, below
+    // Church Government and Church History: question tables carry their own Tier column.
+    "Church Government": { tier: 0 },
+    "Officers and Courts": { tier: 0 },
+    "Calling and Meetings": { tier: 0 },
+    "Discipline and Review": { tier: 0 },
+    "Worship": { tier: 0 },
+    "Church History": { tier: 0 },
+    "Denominations, Events, Terms": { tier: 0 },
+    "People": { tier: 0 },
+    "History of the PCA": { tier: 0 },
     // Theology pages: each question row carries its tier in a "Tier" column (see tagTierColumn).
     // The overview: the opening sections always show; the memory list is Tier 1, the hot topics Tier 2.
     "Theology": { tier: 0, h3: [[/^Shorter Catechism/, 1], [/^The Hot Topics/, 2]] },

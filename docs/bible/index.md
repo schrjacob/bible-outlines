@@ -1,20 +1,10 @@
-# Exam Guide
+# Bible
 
 <!-- cols:1 continuous -->
 
-This booklet is built around Bryan Chapell and Jim Meek, ***Preparing for Licensure and Ordination Exams*** (PCA Christian Education and Publications, 2002), section I, "Study Questions on Bible Content," and its schedule of book outlines and book contents.
+This section is built around Bryan Chapell and Jim Meek, ***Preparing for Licensure and Ordination Exams*** (PCA Christian Education and Publications, 2002), section I, "Study Questions on Bible Content," and its schedule of book outlines and book contents.
 
-## What the PCA Requires
-
-| | Licensure (BCO 19-2) | Ordination (BCO 21-4) |
-|---|---|---|
-| Christian experience and call | Written and/or oral | Experimental religion, character, family (1 Tim. 3; Titus 1) |
-| **Bible** | "Practical knowledge of Bible content" | "Bible content" |
-| **Theology** | Biblical doctrine per the Confession and Catechisms | Theology; sacraments |
-| **Church government** | Basic knowledge of the BCO | Principles and rules of government and discipline |
-| Other | Sermon | Greek and Hebrew; church history; PCA history; thesis; exegesis; sermon |
-
-Read all of BCO 19 and 21 for the processes and deadlines.
+The Bible exam is one of five. See the [home page](../index.md) for what the PCA requires and how the five exams fit together.
 
 ## How Chapell Says to Prepare for the Bible Exam
 
@@ -42,8 +32,6 @@ Read all of BCO 19 and 21 for the processes and deadlines.
 | I. NT key topics (30) | [NT Key Topics](new-testament/topics.md) |
 | Book outlines and contents | The book pages under Old Testament and New Testament |
 <!-- /docx-skip -->
-
-For the **theology** exam, see the [Theology](theology/index.md) section: it answers Chapell's theology questions (section II) in the order of the Westminster Confession.
 
 **Law and grace** (F.6): Romans 3:19-28; 7:7-25; Galatians 2:15-3:29 (3:24, "the law was our guardian until Christ came"); Ephesians 2:8-10.
 
@@ -76,7 +64,3 @@ On the website, use the **All / Tier 1 / Tier 2 / Tier 3** buttons at the bottom
 - **Say it out loud.** Exams are often oral. Practice answering in one crisp sentence, then add detail only if asked.
 - **Quiz in both directions:** "Where is the Jerusalem Council?" and "What happens in Acts 15?"
 - **Overlap with theology:** the NT topics page doubles as a proof-text list for the theology exam.
-
-## Hot Topics (Chapell)
-
-Not part of the Bible exam, but be ready to state and defend your views: creation, charismatic gifts, the regulative principle, Sabbath, the role of women in the church, re-baptism, theonomy, civil disobedience, paedo-communion, divorce and remarriage, confessional subscription, and fencing the Lord's Table.

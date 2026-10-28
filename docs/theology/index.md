@@ -10,7 +10,7 @@ These are study answers, not an official position of the PCA. Where Reformed Chr
 
 | | Licensure (BCO 19-2) | Ordination (BCO 21-4) |
 |---|---|---|
-| **Theology** | "Basic knowledge of biblical doctrine as outlined in the Confession of Faith and Larger and Shorter Catechisms" | "Theology" and "Sacraments" (examined separately) |
+| **Theology** | "Basic knowledge of biblical doctrine as outlined in the Confession of Faith and Larger and Shorter Catechisms" | "Theology" (and "Sacraments," examined separately: see the [Sacraments](../sacraments/index.md) tab) |
 
 Chapell opens the section with two questions to answer honestly and plainly:
 
@@ -57,7 +57,7 @@ Chapell's schedule pairs each theology section with these Shorter Catechism ques
 | H. The Christian Life | WCF 19-20, 22-24; WLC 91-152, 154-196; WSC 39-84, 88-107 | [The Christian Life](christian-life.md) |
 | I. The Church; K. Other Questions (the Holy Spirit) | WCF 25-26, 30-31; WLC 61-66, 69, 82-83, 86 | [The Church and the Spirit](church-spirit.md) |
 | J. The Last Things | WCF 32-33; WLC 84-85, 87-90; WSC 37-38 | [The Last Things](last-things.md) |
-| L. Sacraments | WCF 27-29; WLC 161-177; WSC 91-97 | [Sacraments](sacraments.md) |
+| L. Sacraments (its own exam) | WCF 27-29; WLC 161-177; WSC 91-97 | [Sacraments](../sacraments/index.md) |
 <!-- /docx-skip -->
 
 ### The Hot Topics
@@ -98,6 +98,6 @@ Each question on these pages carries a **Tier** number in its first column. Chap
 - **Know the opposing view.** Chapell's questions keep asking "distinguish X from Y" (Reformed and Arminian, Lutheran and Zwinglian). Learn the error alongside the truth.
 - **Say it out loud.** Exams are usually oral.
 - **Quote the Standards.** Learn the Shorter Catechism answers above word for word; their wording is exactly what examiners listen for.
-- **Overlap with the Bible exam:** the [NT Key Topics](../new-testament/topics.md) page doubles as a proof-text list for these answers.
+- **Overlap with the Bible exam:** the [NT Key Topics](../bible/new-testament/topics.md) page doubles as a proof-text list for these answers.
 
 *The Westminster Standards are in the public domain and are summarized here in the writer's own words, with direct quotation of only a few Shorter Catechism answers. Scripture references are from the ESV where quoted.*

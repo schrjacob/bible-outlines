@@ -97,7 +97,7 @@
   border: 1px solid var(--md-default-fg-color--lightest);
 }
 .tier-control--idle {
-  opacity: 0.7;
+  display: none;
 }
 .tier-control__btn {
   padding: 0.35em 0.9em;
@@ -142,3 +142,92 @@
   min-width: 11rem;
   font-weight: 600;
 }
+
+
+/* ---------------------------------------------------------------------------
+ * One color scheme per exam. The header and tabs, links, headings, and chapter
+ * references all take the active tab's color, so the section you are in is
+ * always clear, while fonts, layout, and spacing stay the same everywhere.
+ * Tabs are in nav order: Bible, Theology, Church Government, Church History,
+ * Sacraments. (The home page has no active tab and keeps Material's indigo.)
+ * ------------------------------------------------------------------------- */
+
+body:has(.md-tabs__item--active:nth-child(1)) {
+  --md-primary-fg-color: #3f51b5;
+  --md-primary-fg-color--dark: #303f9f;
+  --md-primary-fg-color--light: #7986cb;
+  --md-accent-fg-color: #ff6e40;
+  --md-typeset-a-color: #3f51b5;
+}
+[data-md-color-scheme="slate"]:has(.md-tabs__item--active:nth-child(1)) {
+  --md-typeset-a-color: #7986cb;
+}
+
+body:has(.md-tabs__item--active:nth-child(2)) {
+  --md-primary-fg-color: #7b3f98;
+  --md-primary-fg-color--dark: #5e2d79;
+  --md-primary-fg-color--light: #b284cc;
+  --md-accent-fg-color: #ffb300;
+  --md-typeset-a-color: #7b3f98;
+}
+[data-md-color-scheme="slate"]:has(.md-tabs__item--active:nth-child(2)) {
+  --md-typeset-a-color: #b284cc;
+}
+
+body:has(.md-tabs__item--active:nth-child(3)) {
+  --md-primary-fg-color: #00796b;
+  --md-primary-fg-color--dark: #004d40;
+  --md-primary-fg-color--light: #4db6ac;
+  --md-accent-fg-color: #ff9100;
+  --md-typeset-a-color: #00796b;
+}
+[data-md-color-scheme="slate"]:has(.md-tabs__item--active:nth-child(3)) {
+  --md-typeset-a-color: #4db6ac;
+}
+
+body:has(.md-tabs__item--active:nth-child(4)) {
+  --md-primary-fg-color: #8d5524;
+  --md-primary-fg-color--dark: #6a3d17;
+  --md-primary-fg-color--light: #c79a6d;
+  --md-accent-fg-color: #00acc1;
+  --md-typeset-a-color: #8d5524;
+}
+[data-md-color-scheme="slate"]:has(.md-tabs__item--active:nth-child(4)) {
+  --md-typeset-a-color: #c79a6d;
+}
+
+body:has(.md-tabs__item--active:nth-child(5)) {
+  --md-primary-fg-color: #a52a3a;
+  --md-primary-fg-color--dark: #7f1d2a;
+  --md-primary-fg-color--light: #e08a96;
+  --md-accent-fg-color: #ffab40;
+  --md-typeset-a-color: #a52a3a;
+}
+[data-md-color-scheme="slate"]:has(.md-tabs__item--active:nth-child(5)) {
+  --md-typeset-a-color: #e08a96;
+}
+
+.md-typeset h1 {
+  color: var(--md-primary-fg-color);
+}
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: var(--md-primary-fg-color--light);
+}
+.md-typeset table:not([class]) th {
+  border-bottom: 2px solid var(--md-primary-fg-color);
+}
+
+/* Home page: one card per exam, edged in that exam's color. */
+.exam-cards > ul > li {
+  border-top: 4px solid var(--card-color, var(--md-primary-fg-color));
+}
+.exam-cards > ul > li .twemoji,
+.exam-cards > ul > li strong a {
+  color: var(--card-color, var(--md-primary-fg-color));
+  fill: var(--card-color, var(--md-primary-fg-color));
+}
+.exam-cards > ul > li:nth-child(1) { --card-color: #3f51b5; }
+.exam-cards > ul > li:nth-child(2) { --card-color: #7b3f98; }
+.exam-cards > ul > li:nth-child(3) { --card-color: #00796b; }
+.exam-cards > ul > li:nth-child(4) { --card-color: #8d5524; }
+.exam-cards > ul > li:nth-child(5) { --card-color: #a52a3a; }

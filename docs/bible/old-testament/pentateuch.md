@@ -111,7 +111,7 @@
     - Sabbath, a covenant sign
 - Tabernacle: God's presence with his people
 
-<!-- docx-image: ../../booklet/src/images/exodus-map.png width=2.9in -->
+<!-- docx-image: ../../../booklet/src/images/exodus-map.png width=2.9in -->
 
 <!-- pagebreak -->
 
@@ -171,7 +171,7 @@ Memory aid: **P**-**U**-**F** **W**hen **T**he **D**ay **T**urns.
     - Second census
     - Appointment of Joshua
 
-<!-- docx-image: ../../booklet/src/images/numbers-map.png width=2.9in -->
+<!-- docx-image: ../../../booklet/src/images/numbers-map.png width=2.9in -->
 
 ### Key Texts
 

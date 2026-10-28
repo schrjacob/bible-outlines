@@ -1,39 +1,44 @@
-# Bible Outlines for PCA Ordination Exams
+# Ordination Study Guide
 
-A study guide for the **Bible content** and **theology** exams for licensure and ordination in the Presbyterian Church in America (PCA). It follows the requirements in Bryan Chapell and Jim Meek, *Preparing for Licensure and Ordination Exams* (PCA CE&P, 2002).
+A study guide for the five examinations for licensure and ordination in the Presbyterian Church in America (PCA): **Bible, Theology, Church Government, Church History, and Sacraments.** It follows the requirements and questions in Bryan Chapell and Jim Meek, *Preparing for Licensure and Ordination Exams* (PCA CE&P, 2002).
 
-The material is published two ways from **one source**:
+The material is published from **one source**:
 
-- **Website:** a searchable GitHub Pages site built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
-- **Tier filter:** buttons at the bottom of every page show only Tier 1, Tier 2, or Tier 3 content. Which tier each item belongs to is set by rules in `docs/assets/javascripts/tiers.js`, mirroring the Exam Guide's tier list.
-- **Booklet:** a printable half-letter Word booklet (`booklet/Bible Outlines.docx`, plus a PDF)
+- **Website:** a searchable GitHub Pages site built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), with one tab and one color scheme per exam.
+- **Tier filter:** buttons at the bottom of every page show only Tier 1, Tier 2, or Tier 3 content. On the Bible pages the tier of each item is set by rules in `docs/assets/javascripts/tiers.js`; on the question pages (Theology, Church Government, Church History, Sacraments) each row carries its tier in a `Tier` column.
+- **Bible booklet:** a printable half-letter Word booklet of the Bible tab (`booklet/Bible Outlines.docx`, plus a PDF).
 
 ## What's Inside
 
-| Section | Contents |
+| Tab | Contents |
 |---|---|
-| Exam Guide | PCA requirements (BCO 19-2, 21-4); which books need outlines and which need summaries; a tiered study plan |
-| Whole Bible | 66 / 39 / 27, the Ten Commandments, the law summarized, general revelation, the storyline |
-| Theology | Chapell's theology questions (A-L) in Westminster Confession order, with Scripture proofs; the Five Points, ordo salutis, and gospel outline; Shorter Catechism memory list; hot topics; each question tiered 1-3 |
-| Old Testament | Outlines and summaries of all 39 books; timeline and covenants; people and places; key passages and events |
-| New Testament | Life of Christ; outlines of the Gospels, Acts, the major Pauline letters, Hebrews, and Revelation; summaries of the rest; Paul's journeys and letters; people and places; Chapell's 60 key passages and 30 key topics |
+| Bible | How to prepare and a tiered plan; whole-Bible questions; Old Testament (outlines and summaries of all 39 books, timeline and covenants, people and places, passages and events); New Testament (Life of Christ, Gospels, Acts, Paul, epistles, Revelation, people and places, the 60 key passages and 30 key topics) |
+| Theology | Chapell's theology questions (A-K) in Westminster Confession order, with Scripture proofs; the Five Points, ordo salutis, and gospel outline; the Shorter Catechism memory list; hot topics |
+| Church Government | The Book of Church Order in Chapell's order: principles, members, officers, courts, calling and ordination, congregational meetings, discipline, review and control, the Directory for Worship |
+| Church History | Denominations, events, and definitions; Chapell's 41 people; the history of Presbyterianism in the US and of the PCA |
+| Sacraments | Baptism and the Lord's Supper: meaning, mode, subjects, the Reformed view against the others, and the practical cases |
+
+The Church Government, Church History, and PCA-history pages were written without access to the BCO or a history text; they are marked **verify** where details (vote thresholds, deadlines, names, dates) should be checked against the current sources.
 
 ## Repository Layout
 
 ```
 docs/                     Markdown source (the single source of truth)
-  theology/               Theology pages (one per group of Chapell's sections)
-  old-testament/          OT book pages and reference pages
-  new-testament/          NT book pages and reference pages
-  assets/                 Site CSS, tier-filter script, and favicon
-mkdocs.yml                Site config; the nav order is also the booklet's page order
+  index.md                Home page (reached from the site title)
+  bible/                  Bible tab: overview, whole Bible, old-testament/, new-testament/
+  theology/               Theology tab
+  church-government/      Church Government tab
+  church-history/         Church History tab
+  sacraments/             Sacraments tab
+  assets/                 Site CSS (including the per-tab colors), tier-filter script, favicon
+mkdocs.yml                Site config; the nav is the five tabs, and the Bible tab's order is the booklet's page order
 booklet/
   Bible Outlines.docx     Generated booklet (do not edit by hand; see below)
   Bible Outlines.pdf      PDF export of the booklet
   src/template.docx       Original booklet: supplies the cover, styles, footer, and page size
   src/images/             Maps used only in the booklet
 scripts/
-  build_booklet.py        Markdown -> Word booklet
+  build_booklet.py        Markdown (Bible tab) -> Word booklet
   export_pdf.ps1          Word -> PDF (Windows, needs Microsoft Word)
 reference/                Chapell study guide PDF (git-ignored: copyrighted)
 ```

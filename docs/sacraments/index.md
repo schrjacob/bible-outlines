@@ -2,7 +2,7 @@
 
 <!-- cols:1 continuous -->
 
-Chapell, theology section L. Standards: **WCF 27-29; WLC 161-177; WSC 91-97** (Chapell assigns **WSC 88 and 91-98** for memorization). Ordination exams treat the sacraments as a separate subject (BCO 21-4). Hot topics here: **re-baptism**, **paedo-communion**, and **fencing the Lord's Table**. On hot topics, state and defend your **own** view; the notes give the Standards' position and the main alternatives. The **Tier** column ranks each question (1 = know cold, 2 = second pass, 3 = if time allows).
+Chapell, theology section L. The PCA examines the sacraments **separately** from theology (BCO 21-4). Standards: **WCF 27-29; WLC 161-177; WSC 91-97** (Chapell assigns **WSC 88 and 91-98** for memorization). Hot topics here: **re-baptism**, **paedo-communion**, and **fencing the Lord's Table**. On hot topics, state and defend your **own** view; the notes give the Standards' position and the main alternatives. The **Tier** column ranks each question (1 = know cold, 2 = second pass, 3 = if time allows).
 
 ## The Sacraments in General
 
