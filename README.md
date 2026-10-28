@@ -5,6 +5,7 @@ A study guide for the **Bible content** exam for licensure and ordination in the
 The material is published two ways from **one source**:
 
 - **Website:** a searchable GitHub Pages site built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
+- **Tier filter:** buttons at the bottom of every page show only Tier 1, Tier 2, or Tier 3 content. Which tier each item belongs to is set by rules in `docs/assets/javascripts/tiers.js`, mirroring the Exam Guide's tier list.
 - **Booklet:** a printable half-letter Word booklet (`booklet/Bible Outlines.docx`, plus a PDF)
 
 ## What's Inside
@@ -22,7 +23,7 @@ The material is published two ways from **one source**:
 docs/                     Markdown source (the single source of truth)
   old-testament/          OT book pages and reference pages
   new-testament/          NT book pages and reference pages
-  assets/                 Site CSS and favicon
+  assets/                 Site CSS, tier-filter script, and favicon
 mkdocs.yml                Site config; the nav order is also the booklet's page order
 booklet/
   Bible Outlines.docx     Generated booklet (do not edit by hand; see below)

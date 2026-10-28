@@ -47,6 +47,10 @@ Read all of BCO 19 and 21 for the processes and deadlines.
 
 ## If Time Is Short: Study in Tiers
 
+<!-- docx-skip -->
+On the website, use the **All / Tier 1 / Tier 2 / Tier 3** buttons at the bottom of any page to show just that tier. The choice carries from page to page.
+
+<!-- /docx-skip -->
 !!! success "Tier 1: know cold (most likely to be asked; easiest points)"
     1. **66 / 39 / 27**; the OT and NT divisions and the books in order ([Whole Bible](whole-bible.md))
     2. **A one-line summary of every book** (the OT and NT overview pages)
