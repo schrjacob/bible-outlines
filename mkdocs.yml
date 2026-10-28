@@ -1,8 +1,8 @@
 site_name: Bible Outlines
 site_description: Bible content study guide for PCA licensure and ordination exams
-# Set this to your GitHub Pages URL after creating the repo, e.g.
-# site_url: https://<username>.github.io/<repo>/
-# repo_url: https://github.com/<username>/<repo>
+site_url: https://schrjacob.github.io/bible-outlines/
+repo_url: https://github.com/schrjacob/bible-outlines
+edit_uri: edit/main/docs/
 
 copyright: Scripture quotations are from the ESV® Bible, © 2001 by Crossway. Used by permission.
 
