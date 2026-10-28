@@ -18,7 +18,7 @@ The material is published from **one source**:
 | Church History | Denominations, events, and definitions; Chapell's 41 people; the history of Presbyterianism in the US and of the PCA |
 | Sacraments | Baptism and the Lord's Supper: meaning, mode, subjects, the Reformed view against the others, and the practical cases |
 
-The Church Government, Church History, and PCA-history pages were written without access to the BCO or a history text; they are marked **verify** where details (vote thresholds, deadlines, names, dates) should be checked against the current sources.
+The Church Government pages were checked against the BCO text published at pcaac.org (through the 2026 General Assembly). The Church History and PCA-history pages were written without a source to check against and are marked **verify** where names and dates need confirming.
 
 ## Repository Layout
 
