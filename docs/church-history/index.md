@@ -4,8 +4,8 @@
 
 This section follows Bryan Chapell and Jim Meek, ***Preparing for Licensure and Ordination Exams*** (PCA Christian Education and Publications, 2002), section III, "Study Questions on Church History," including its section F on the history of the PCA. Ordination requires an examination in **church history** and in **the history of the Presbyterian Church in America** (BCO 21-4); licensure does not.
 
-!!! warning "Dates and details"
-    These are study summaries written from memory of standard sources. Check names, dates, and especially the **history of the PCA** (page 4) against a reliable text before the exam. Chapell's bibliography points to general histories (Walker, Latourette, Gonzalez) and, for the PCA, Smartt, Keyes, Kornegay, Longfield, Settle, and Morton Smith.
+!!! info "How these pages were checked"
+    The **history of the PCA** (page 4) and the **Auburn Affirmation** were checked against the PCA Historical Center (pcahistory.org). The denominations, events, definitions, and people on the other pages come from standard church histories (Chapell's bibliography names Walker, Latourette, and Gonzalez) and have **not** been checked against a source; confirm names and dates in one of those before the exam. Items on the PCA page marked "not checked" are likewise unverified.
 
 ## How Chapell Organizes the Questions
 

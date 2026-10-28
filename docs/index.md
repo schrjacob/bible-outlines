@@ -54,6 +54,6 @@ Read all of BCO 19 and 21 for the processes and deadlines.
 5. Each tab has its own color so you always know which exam you are in.
 
 !!! warning "Check the details that change"
-    The Book of Church Order is amended nearly every year, and Assembly decisions and your presbytery's own policies matter. The Church Government pages were checked against the BCO text on the PCA's website (amendments through the 2026 General Assembly); check the current text before your exam. The Church History pages, including the history of the PCA, were not checked against a source and are marked where details need verifying.
+    The Book of Church Order is amended nearly every year, and Assembly decisions and your presbytery's own policies matter. The Church Government pages were checked against the BCO text on the PCA's website (amendments through the 2026 General Assembly); check the current text before your exam. The history of the PCA was checked against the PCA Historical Center (pcahistory.org); the other Church History pages come from standard references and were not checked against a source.
 
 *Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), copyright © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.*

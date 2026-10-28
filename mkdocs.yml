@@ -1,7 +1,7 @@
 site_name: Ordination Study Guide
 site_description: "Study guide for the five PCA licensure and ordination exams: Bible, Theology, Church Government, Church History, and Sacraments"
-site_url: https://schrjacob.github.io/bible-outlines/
-repo_url: https://github.com/schrjacob/bible-outlines
+site_url: https://schrjacob.github.io/ordination-study-guide/
+repo_url: https://github.com/schrjacob/ordination-study-guide
 edit_uri: edit/main/docs/
 
 copyright: Scripture quotations are from the ESV® Bible, © 2001 by Crossway. Used by permission.
@@ -45,6 +45,7 @@ extra_css:
   - assets/stylesheets/extra.css
 
 extra_javascript:
+  - assets/javascripts/exam-colors.js
   - assets/javascripts/tiers.js
 
 nav:
