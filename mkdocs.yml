@@ -1,5 +1,5 @@
-site_name: Bible Outlines
-site_description: Bible content and theology study guide for PCA licensure and ordination exams
+site_name: Ordination Study Guide
+site_description: "Study guide for the five PCA licensure and ordination exams: Bible, Theology, Church Government, Church History, and Sacraments"
 site_url: https://schrjacob.github.io/bible-outlines/
 repo_url: https://github.com/schrjacob/bible-outlines
 edit_uri: edit/main/docs/
@@ -48,10 +48,30 @@ extra_javascript:
   - assets/javascripts/tiers.js
 
 nav:
-  - Home: index.md
-  - Exam Guide:
-      - exam-guide.md
-      - Whole Bible: whole-bible.md
+  - Bible:
+      - bible/index.md
+      - Whole Bible: bible/whole-bible.md
+      - Old Testament:
+          - bible/old-testament/index.md
+          - Pentateuch: bible/old-testament/pentateuch.md
+          - Historical Books: bible/old-testament/history.md
+          - Poetry & Wisdom: bible/old-testament/wisdom.md
+          - Major Prophets: bible/old-testament/major-prophets.md
+          - Minor Prophets: bible/old-testament/minor-prophets.md
+          - Timeline & Covenants: bible/old-testament/timeline.md
+          - People & Places: bible/old-testament/people-places.md
+          - Passages & Events: bible/old-testament/passages-events.md
+      - New Testament:
+          - bible/new-testament/index.md
+          - Life of Christ: bible/new-testament/life-of-christ.md
+          - Gospels: bible/new-testament/gospels.md
+          - Acts: bible/new-testament/acts.md
+          - Life of Paul: bible/new-testament/paul.md
+          - Pauline Epistles: bible/new-testament/pauline-epistles.md
+          - General Epistles & Revelation: bible/new-testament/general-epistles-revelation.md
+          - People & Places: bible/new-testament/people-places.md
+          - Key Passages: bible/new-testament/passages.md
+          - Key Topics: bible/new-testament/topics.md
   - Theology:
       - theology/index.md
       - Core Doctrines and Proofs: theology/core-doctrines.md
@@ -63,30 +83,23 @@ nav:
       - The Christian Life: theology/christian-life.md
       - The Church and the Spirit: theology/church-spirit.md
       - The Last Things: theology/last-things.md
-      - Sacraments: theology/sacraments.md
-  - Old Testament:
-      - old-testament/index.md
-      - Pentateuch: old-testament/pentateuch.md
-      - Historical Books: old-testament/history.md
-      - Poetry & Wisdom: old-testament/wisdom.md
-      - Major Prophets: old-testament/major-prophets.md
-      - Minor Prophets: old-testament/minor-prophets.md
-      - Reference:
-          - Timeline & Covenants: old-testament/timeline.md
-          - People & Places: old-testament/people-places.md
-          - Passages & Events: old-testament/passages-events.md
-  - New Testament:
-      - new-testament/index.md
-      - Life of Christ: new-testament/life-of-christ.md
-      - Gospels: new-testament/gospels.md
-      - Acts: new-testament/acts.md
-      - Life of Paul: new-testament/paul.md
-      - Pauline Epistles: new-testament/pauline-epistles.md
-      - General Epistles & Revelation: new-testament/general-epistles-revelation.md
-      - Reference:
-          - People & Places: new-testament/people-places.md
-          - Key Passages: new-testament/passages.md
-          - Key Topics: new-testament/topics.md
+  - Church Government:
+      - church-government/index.md
+      - Officers and Courts: church-government/officers-courts.md
+      - Calling and Meetings: church-government/calling-meetings.md
+      - Discipline and Review: church-government/discipline.md
+      - Worship: church-government/worship.md
+  - Church History:
+      - church-history/index.md
+      - Denominations, Events, Terms: church-history/denominations-events.md
+      - People: church-history/people.md
+      - History of the PCA: church-history/pca-history.md
+  - Sacraments:
+      - sacraments/index.md
+
+# The home page is reached from the site title, not from a tab.
+not_in_nav: |
+  /index.md
 
 markdown_extensions:
   - abbr
