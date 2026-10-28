@@ -46,7 +46,8 @@
   var REFERENCE_PAGES = {
     "Exam Guide": { tier: 0 }, // the Tier admonitions are matched by title, below
     // Theology pages: each question row carries its tier in a "Tier" column (see tagTierColumn).
-    "Theology": { tier: 0 },
+    // The overview: the opening sections always show; the memory list is Tier 1, the hot topics Tier 2.
+    "Theology": { tier: 0, h3: [[/^Shorter Catechism/, 1], [/^The Hot Topics/, 2]] },
     "Core Doctrines and Proofs": { tier: 1 },
     "The Bible": { tier: 0 },
     "God and His World": { tier: 0 },
