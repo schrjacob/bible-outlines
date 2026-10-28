@@ -1,5 +1,5 @@
 site_name: Bible Outlines
-site_description: Bible content study guide for PCA licensure and ordination exams
+site_description: Bible content and theology study guide for PCA licensure and ordination exams
 site_url: https://schrjacob.github.io/bible-outlines/
 repo_url: https://github.com/schrjacob/bible-outlines
 edit_uri: edit/main/docs/
@@ -52,6 +52,18 @@ nav:
   - Exam Guide:
       - exam-guide.md
       - Whole Bible: whole-bible.md
+  - Theology:
+      - theology/index.md
+      - Core Doctrines and Proofs: theology/core-doctrines.md
+      - The Bible: theology/bible.md
+      - God and His World: theology/god-and-world.md
+      - Humankind: theology/humankind.md
+      - Covenants and Christ: theology/covenants-christ.md
+      - Salvation: theology/salvation.md
+      - The Christian Life: theology/christian-life.md
+      - The Church and the Spirit: theology/church-spirit.md
+      - The Last Things: theology/last-things.md
+      - Sacraments: theology/sacraments.md
   - Old Testament:
       - old-testament/index.md
       - Pentateuch: old-testament/pentateuch.md

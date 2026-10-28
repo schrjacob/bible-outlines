@@ -43,6 +43,8 @@ Read all of BCO 19 and 21 for the processes and deadlines.
 | Book outlines and contents | The book pages under Old Testament and New Testament |
 <!-- /docx-skip -->
 
+For the **theology** exam, see the [Theology](theology/index.md) section: it answers Chapell's theology questions (section II) in the order of the Westminster Confession.
+
 **Law and grace** (F.6): Romans 3:19-28; 7:7-25; Galatians 2:15-3:29 (3:24, "the law was our guardian until Christ came"); Ephesians 2:8-10.
 
 ## If Time Is Short: Study in Tiers

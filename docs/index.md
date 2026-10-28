@@ -5,7 +5,7 @@ hide:
 
 # Bible Outlines for PCA Ordination Exams
 
-A study guide for the **Bible content** portion of licensure and ordination exams in the Presbyterian Church in America. It follows the requirements in Bryan Chapell and Jim Meek, *Preparing for Licensure and Ordination Exams*.
+A study guide for the **Bible content** and **theology** portions of licensure and ordination exams in the Presbyterian Church in America. It follows the requirements in Bryan Chapell and Jim Meek, *Preparing for Licensure and Ordination Exams*.
 
 <div class="grid cards" markdown>
 
@@ -16,6 +16,10 @@ A study guide for the **Bible content** portion of licensure and ordination exam
 -   :material-book-open-variant: **[Whole Bible](whole-bible.md)**
 
     66 / 39 / 27, the Ten Commandments, the law summarized, general revelation, and the storyline.
+
+-   :material-school-outline: **[Theology](theology/index.md)**
+
+    Chapell's theology questions, answered in the order of the Westminster Confession, with proofs, the Five Points, the ordo salutis, and a gospel outline.
 
 -   :material-script-text-outline: **[Old Testament](old-testament/index.md)**
 
