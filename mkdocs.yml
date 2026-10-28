@@ -44,6 +44,9 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascripts/tiers.js
+
 nav:
   - Home: index.md
   - Exam Guide:
